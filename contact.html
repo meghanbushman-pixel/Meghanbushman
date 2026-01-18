@@ -1,0 +1,13 @@
+<main class="container">
+  <h1>Contact</h1>
+  <p class="lead">Feel free to reach out—I’d love to connect!</p>
+
+  <form id="contactForm" class="form-grid" method="POST" action="https://formspree.io/f/xqeeanao">
+    <input name="firstName" placeholder="First Name" autocomplete="given-name" required />
+    <input name="lastName" placeholder="Last Name" autocomplete="family-name" required />
+    <input name="email" placeholder="Email" type="email" autocomplete="email" required />
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit">Send</button>
+    <div id="formStatus" aria-live="polite"></div>
+  </form>
+</main>
