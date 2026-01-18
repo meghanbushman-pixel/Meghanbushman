@@ -3,13 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio | Meghan Bushman </title>
+  <title>Portfolio | Meghan Bushman</title>
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
+  <!-- Header -->
   <header class="nav">
     <div class="container nav-inner">
-      <div class="nav-brand">Your Name</div>
+      <div class="nav-brand">Meghan Bushman</div>
       <nav class="nav-links">
         <a href="index.html" aria-current="page">Portfolio</a>
         <a href="about.html">About</a>
@@ -18,25 +19,43 @@
     </div>
   </header>
 
+  <!-- Main Content -->
   <main class="container">
-    <h1>Portfolio</h1>
+    <h1>Welcome!</h1>
     <p class="lead">
-      Welcome! I design learning experiences that are clear, engaging, and focused on real outcomes. Outside of work, I’m a pottery instructor at a local nonprofit, making ceramics approachable for people of all ages.
-
-I like learning by experimenting—testing new technologies, playing with GitHub, xAPI, and AR apps, and seeing what’s possible. I’m a big fan of DevLearn, free online technical training, and building things that are both creative and aesthetic—whether that’s eLearning or art.
+      I'm Meghan, and I design learning experiences that are clear, engaging, and focused on real outcomes. Outside of work, I’m a pottery instructor at a local nonprofit, making ceramics approachable for people of all ages.
+      <br><br>
+      I like learning by experimenting—testing new technologies, playing with GitHub, xAPI, and AR apps, and seeing what’s possible. I’m a big fan of DevLearn, free online technical training, and building things that are both creative and aesthetic—whether that’s eLearning or art.
+      <br><br>
+      When I’m not teaching or tinkering with tech, you’ll probably find me covered in clay, sipping coffee ☕, or thinking about my next side project.
     </p>
 
+    <!-- Projects Section -->
     <section class="card">
-      <div class="list" id="projectList"></div>
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>🖥 <a href="https://meghanbushman-pixel.github.io/Meghanbushman/codeofconduct_demo/story.html" target="_blank">Code of Conduct Quick Tap</a></h3>
+        <p>A quick, interactive microlearning I built to make learning and referencing company policies simple and easy to use. Think of it as “learning at your fingertips.”</p>
+      </div>
+
+      <div class="project">
+        <h3>🎨 Pottery Creations</h3>
+        <p>A small collection of ceramics I’ve made while teaching and experimenting with clay. Hands-on creativity that’s both fun and messy!</p>
+        <img src="assets/images/pottery1.jpg" alt="Pottery creation example" />
+        <img src="assets/images/pottery2.jpg" alt="Another pottery piece" />
+      </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" style="margin-top: 18px;">
       <h2 style="margin: 18px 0 10px;">Contact</h2>
       <div class="card">
         <p class="lead" style="margin-bottom: 10px;">
-          Send a message and I will get back to you.
+          Feel free to reach out—I’d love to connect!
         </p>
 
+        <!-- Contact Form -->
         <form id="contactForm" class="form-grid" method="POST" action="https://formspree.io/f/xqeeanao">
           <input name="firstName" placeholder="First Name" autocomplete="given-name" required />
           <input name="lastName" placeholder="Last Name" autocomplete="family-name" required />
@@ -49,10 +68,12 @@ I like learning by experimenting—testing new technologies, playing with GitHub
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
-    <div class="container">© Your Name</div>
+    <div class="container">© Meghan Bushman</div>
   </footer>
 
   <script src="assets/js/main.js"></script>
 </body>
 </html>
+
